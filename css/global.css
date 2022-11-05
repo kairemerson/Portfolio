@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+:root{
+    --font-primary: "Roboto" sans-serif;
+    --bg-primary-color: #0a192f;
+    --bg-secondary-color: #112240;
+    --color-font-light: #e1e1e6;
+    --color-font-light-gray: #8892b0;
+    --color-font-blue: #61dafb;
+    --bs-link-hover-color: #61dafb;
+}
+
+body{
+    background-color: var(--bg-primary-color);
+}
+header#navbar{
+    background-color: var(--bg-secondary-color);
+}
+.brand{
+    color: var(--color-font-light);
+    font-size: 1.3em;
+}
+.span-brand{
+    color: var(--color-font-blue);
+    font-weight: 700;
+}
+.nav-link{
+    color: var(--color-font-light);
+    font-weight: 500;
+    transition: all .3s;
+}
+.nav-link:hover{
+    color: var(--color-font-blue);
+}
+.nav-link.active{
+    color: var(--color-font-blue);
+    border-bottom: 1px solid;
+}
+.brief{
+    width: 100%;
+}
+.brief p{
+    color: var(--color-font-light-gray);
+}
+.brief h2{
+    color: var(--color-font-light);
+    font-size: 2.6em;
+}
+#name{
+    font-size: 3.5em;
+    font-weight: 400;
+}
+.brief img{
+    padding: 40px;
+    width: 100%;
+}
+.about{
+    padding: 100px 0;
+}
+.about-section{
+    flex: 1;
+}
+.about img{
+    width: 70%;
+}
+.about h2{
+    color: var(--color-font-light);
+    font-size: 2.2em;
+}
+.about p{
+    color: var(--color-font-light-gray);
+    font-size: 1.14em;
+}
+.tecnologies{
+    padding: 120px 0;
+}
+.tecnologies h2{
+    color: var(--color-font-light);
+    margin-bottom: 40px;
+}
+.tecnology{
+    background-color: var(--bg-secondary-color);
+    max-width: 120px;
+    padding: 14px;
+    margin-top: 20px;
+}
+.tecnology img{
+    max-width: 100%;
+}
+.tecnology p{
+    color: var(--color-font-light);
+}
+.projects{
+    padding: 100px 0;
+}
+.projects h2{
+    color: var(--color-font-light);
+    margin-bottom: 40px;
+}
+.project{
+    background-color: var(--bg-secondary-color);
+    max-width: 300px;
+    padding: 10px;
+}
+.project img{
+    width: 100%;
+}
+.project h3{
+    background-color: var(--color-font-light);
+    color: var(--bg-primary-color);
+    font-size: 1.4rem;
+    padding: 4px;
+}
+.project p{
+    background-color: var(--color-font-light);
+    padding: 4px;
+    color: var(--bg-secondary-color);
+}
+.contacts{
+    padding: 120px 0;
+    background-color: var(--bg-secondary-color);
+}
+.contacts h2{
+    color: var(--color-font-light);
+    margin: 30px 0;
+}
+.contacts p{
+    color: var(--color-font-light-gray);
+    max-width: 500px;
+}
+.contact{
+    padding: 30px 0;
+    margin: 40px 0;
+}
+.contact a{
+    color: var(--color-font-light);
+    margin-right: 20px;
+}
+.contact i{
+    font-size: 2.2rem;
+}
+.contact i:hover{
+    color: var(--color-font-blue);
+}
+footer p{
+    color: var(--color-font-light);
+}

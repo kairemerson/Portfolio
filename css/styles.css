@@ -12,6 +12,7 @@
     --color-font-light: #e1e1e6;
     --color-font-light-gray: #8892b0;
     --color-font-blue: #61dafb;
+
     --bs-link-hover-color: #61dafb;
 }
 
@@ -80,7 +81,7 @@ header#navbar{
 }
 #name{
     color: var(--color-font-light);
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 400;
 }
 .brief img{
@@ -134,7 +135,6 @@ header#navbar{
     margin-bottom: 40px;
 }
 .project{
-    background-color: var(--bg-secondary-color);
     max-width: 300px;
     padding: 10px;
 }
@@ -142,13 +142,11 @@ header#navbar{
     width: 100%;
 }
 .project h3{
-    background-color: var(--color-font-light);
     color: var(--bg-primary-color);
     font-size: 1.4rem;
     padding: 4px;
 }
 .project p{
-    background-color: var(--color-font-light);
     padding: 4px;
     color: var(--bg-secondary-color);
 }
@@ -180,4 +178,43 @@ header#navbar{
 }
 footer p{
     color: var(--color-font-light);
+}
+
+@media screen and (max-width: 425px) {
+    .general{
+        padding: 50px 0;
+        height: 85vh;
+    }
+    .brief{
+        width: 100%;
+    }
+    #name{
+        font-size: 2.3rem;
+    }
+    .brief h2{
+        font-size: 1.5rem;
+    }
+    .brief-image{
+        display: none;
+    }
+    .about{
+        height: auto;
+    }
+    .about-home{
+        margin: 50px 0;
+    }
+    .about-div{
+        flex-direction: column;
+    }
+    .about h2{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .tecnologies{
+        height: auto;
+    }
 }

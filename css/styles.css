@@ -21,11 +21,16 @@ body{
 }
 header#navbar{
     background-color: var(--bg-secondary-color);
+    transition: all 1s;
 }
 header.active{
     position: fixed;
-    background: #fff;
-    box-shadow: 0,0,30px, rgba(0, 0, 0, .2);
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
+    opacity: 0.9;
     width: 100%;
     top: 0;
 }

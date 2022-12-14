@@ -135,6 +135,10 @@ header.active{
     max-width: 120px;
     padding: 14px;
     margin-top: 20px;
+    transition: all .2s;
+}
+.tecnology:hover{
+    box-shadow: 0px 0px 30px var(--color-font-blue);
 }
 .tecnology img{
     max-width: 100%;
@@ -152,6 +156,10 @@ header.active{
 .project{
     max-width: 250px;
     padding: 10px;
+    transition: all 0.3s;
+}
+.project:hover{
+    transform: scale(1.1);
 }
 .project img{
     width: 100%;

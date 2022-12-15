@@ -132,6 +132,33 @@ header.active{
     background-color: var(--bg-secondary-color);
     height: 100vh;
 }
+@keyframes movefromtop {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes movefrombottom {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animate .about-left{
+    animation: movefrombottom 1s ease-out;
+}
+.animate .about-right{
+    animation: movefromtop 1s ease-out;
+}
 .about-section{
     flex: 1;
 }
